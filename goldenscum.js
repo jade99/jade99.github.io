@@ -18,6 +18,6 @@ Game.registerMod('goldenscum', {
 			}
 		}
 
-		Game.registerHook('tick', autoScumLump);
+		Game.registerHook('logic', autoScumLump);
 	}
 });
