@@ -7,7 +7,7 @@ Game.registerMod('goldenscum', {
 			if (age >= Game.lumpRipeAge) {
 				Game.WriteSave();
 				Game.Notify("Harvesting Lump!", "", [0, 0], 6);	
-				Game.clickLump
+				Game.clickLump();
 
 				if (Game.lumpCurrentType != 2) {
 					Game.Notify("Lump is not Golden", "Reloading", [16, 5], 6);
